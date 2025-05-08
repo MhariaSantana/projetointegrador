@@ -90,3 +90,12 @@ body{
     color: #848281;
     margin-top: 81px;
 }
+.mapa {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 52px;
+    margin-bottom: 52px;
+   
+}

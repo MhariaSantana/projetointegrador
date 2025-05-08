@@ -67,3 +67,12 @@ body{
     text-align: center;
     justify-content: end;
 }
+.foto1{
+    margin-top: 20px;
+    margin-left: 77px;
+}
+.texto-foto1{
+    font-size: 12px;
+    margin-left: 107px;
+    margin-top: 18px;
+}
