@@ -80,16 +80,29 @@ body{
     margin-top: 5px;
     text-align: center;
 }
-.imagens-bio{
-    margin-top: 76px;
-}
 .foto1{
-    margin-left: 159px;
-    margin-top: 76px;
-   
+    margin-top: 76px;   
+}
+.foto2{
+    margin-top: 124px;
+}
+.foto3{
+    margin-top: 124px;
+}
+.teste{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 210px;
 }
 .lado-esquerdo{
-    margin-left: 542px;
     margin-top: 115px;
-
+    padding-left: 83px;
+}
+.lado-esquerdo2{
+    padding-left: 83px;
+    margin-top: 174px;
+}
+.lado-esquerdo3{
+    margin-top: 184px;
+    padding-left: 83px;
 }
