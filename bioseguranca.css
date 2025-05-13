@@ -68,13 +68,13 @@ body{
 }
 .titulo{
     text-align: center;
-    font-size: 40px;
+    font-size: 45px;
     margin-right: 80px;
     color: #848281;
     margin-top: 64px;
 }
 .subtitulo{
-    font-size: 20px;
+    font-size: 25px;
     margin-right: 80px;
     color: #848281;
     margin-top: 5px;
@@ -93,7 +93,7 @@ body{
 .teste{
     display: flex;
     justify-content: flex-start;
-    margin-left: 210px;
+    margin-left: 200px;
 }
 .lado-esquerdo{
     margin-top: 115px;
@@ -109,9 +109,4 @@ body{
 }
 .imagens-bio{
     margin-top: 76px;
-}
-.teste{
-    display: flex;
-    justify-content: space-around;
-
 }
