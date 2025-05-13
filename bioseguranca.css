@@ -80,7 +80,7 @@ body{
     margin-top: 5px;
     text-align: center;
 }
-<<<<<<< HEAD
+
 .foto1{
     margin-top: 76px;   
 }
@@ -106,12 +106,12 @@ body{
 .lado-esquerdo3{
     margin-top: 184px;
     padding-left: 83px;
-=======
+}
 .imagens-bio{
     margin-top: 76px;
 }
 .teste{
     display: flex;
     justify-content: space-around;
->>>>>>> f0d0cdbbbdfb716e0b54565f065e8492e8450f47
+
 }
