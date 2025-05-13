@@ -83,13 +83,7 @@ body{
 .imagens-bio{
     margin-top: 76px;
 }
-.foto1{
-    margin-left: 159px;
-    margin-top: 76px;
-   
-}
-.lado-esquerdo{
-    margin-left: 542px;
-    margin-top: 115px;
-
+.teste{
+    display: flex;
+    justify-content: space-around;
 }
