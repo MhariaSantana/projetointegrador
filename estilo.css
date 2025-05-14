@@ -75,4 +75,20 @@ body{
     font-size: 12px;
     margin-left: 107px;
     margin-top: 18px;
+    color: #848281;
+}
+.info{
+    display: flex;
+    justify-content: flex-start;
+}
+.titulo{
+    margin-top: 33px;
+    padding-left: 200px;
+}
+.principal{
+    font-size: 64px;
+}
+.sub{
+    font-size: 24px;
+    color: #848281;
 }
