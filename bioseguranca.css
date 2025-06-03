@@ -87,3 +87,6 @@ body{
     display: flex;
     justify-content: space-around;
 }
+.lado-esquerdo{
+    margin-top: 115px;
+}
