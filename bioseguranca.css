@@ -92,13 +92,12 @@ body{
 }
 .teste{
     display: flex;
-<<<<<<< HEAD
+
     justify-content: space-around;
 }
 .lado-esquerdo{
     margin-top: 115px;
-}
-=======
+
     justify-content: flex-start;
     margin-left: 200px;
 }
@@ -117,4 +116,4 @@ body{
 .imagens-bio{
     margin-top: 76px;
 }
->>>>>>> 4aad2410c264fcc25146ad00c3d49e09fbdc62e6
+
