@@ -68,25 +68,53 @@ body{
 }
 .titulo{
     text-align: center;
-    font-size: 40px;
+    font-size: 45px;
     margin-right: 80px;
     color: #848281;
     margin-top: 64px;
 }
 .subtitulo{
-    font-size: 20px;
+    font-size: 25px;
     margin-right: 80px;
     color: #848281;
     margin-top: 5px;
     text-align: center;
 }
-.imagens-bio{
-    margin-top: 76px;
+
+.foto1{
+    margin-top: 76px;   
+}
+.foto2{
+    margin-top: 124px;
+}
+.foto3{
+    margin-top: 124px;
 }
 .teste{
     display: flex;
+<<<<<<< HEAD
     justify-content: space-around;
 }
 .lado-esquerdo{
     margin-top: 115px;
 }
+=======
+    justify-content: flex-start;
+    margin-left: 200px;
+}
+.lado-esquerdo{
+    margin-top: 115px;
+    padding-left: 83px;
+}
+.lado-esquerdo2{
+    padding-left: 83px;
+    margin-top: 174px;
+}
+.lado-esquerdo3{
+    margin-top: 184px;
+    padding-left: 83px;
+}
+.imagens-bio{
+    margin-top: 76px;
+}
+>>>>>>> 4aad2410c264fcc25146ad00c3d49e09fbdc62e6
