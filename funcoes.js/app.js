@@ -17,3 +17,18 @@ function TrocarFoto(foto){
     TrocarFoto(fotoAtual);
 
  }, 5000);
+
+
+
+$('.autoplay').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 500,
+});
+
+
+
+
+
+

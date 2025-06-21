@@ -87,8 +87,23 @@ body{
 }
 .principal{
     font-size: 64px;
+    
 }
 .sub{
     font-size: 24px;
     color: #848281;
+}
+.conf{
+    margin-top: 63px;
+    margin-bottom: 126px;
+}
+.fundo{
+    background-color: white;
+    margin-top: 126px;
+    height: 250px;
+}
+.titulo-fed{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 56px;
 }
