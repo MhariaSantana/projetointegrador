@@ -1,21 +1,5 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Espaço </title>
-    <link rel="stylesheet" href="espaco.css">
-
-</head>
-<body >
-    <header class="cabecalho">
-        <div class="menu-cabecalho">
-            <a href="index.html" class="menu">TELA INICIAL</a>
-            <a href="servicos.html" class="menu-meio"> SERVIÇOS</a>
-            <a href="bioseguranca.html" class="menu"> BIOSEGURANÇA</a>  
-        </div>
-              
-    </header>
+<?php include "includes/cab.php"; ?>
+<link rel="stylesheet" href="espaco.css">
 
     <h1 class="titulo">ESTUDIO</h1>
 

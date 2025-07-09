@@ -1,21 +1,5 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Biosegurança</title>
+<?php include "includes/cab.php";?>
     <link rel="stylesheet" href="bioseguranca.css">
-</head>
-<body>
-    <header class="cabecalho">
-        <div class="menu-cabecalho">
-            <a href="index.html" class="menu" > TELA INICIAL</a>
-            <a href="espaco.html" class="menu-meio"> ESPAÇO</a>
-            <a href="bioseguranca.html" class="menu"> SERVIÇOS</a>
-        </div>
-            
-    </header>
-
     <h1 class="titulo">BIOSEGURANÇA</h1>
     <h2 class="subtitulo">cuidados com a sua saúde</h2>
 
