@@ -15,9 +15,12 @@
 <body>
     <header class="cabecalho">
         <div class="menu-cabecalho">
+            
             <a href="servicos.html" class="menu"> SERVIÇOS</a>
-            <a href="espaco.html" class="menu-meio"> ESPAÇO</a>
+            <a href="espaco.html" class="menu"> ESPAÇO</a>
             <a href="bioseguranca.html" class="menu"> BIOSEGURANÇA</a>
+            <a href="index.php" class="casa-menu"><img src="imagens/casa1.png"></a>
+           
 
         </div>
 
