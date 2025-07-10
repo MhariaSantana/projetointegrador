@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -63,30 +67,44 @@ body{
 .casa-menu{
     margin-top: 15px;
 }
+.rodape{
+    background-color: #BFB3A5 ;
+    font-size: 10px;
+    align-items: center;
+    text-align: center;
+}
+.texto-rodape{
+    margin-top: 5px;
+    padding-top: 10px;
+    margin-bottom: 3px;
+    font-family: "DM Serif Text", serif;
+
+}
+.tm{
+    width: 40px;
+}
 .foto1{
     margin-top: 20px;
     margin-left: 77px;
 }
 .texto-foto1{
-    font-size: 12px;
+    font-size: 11px;
     margin-left: 107px;
     margin-top: 18px;
-    color: #848281;
+    color: #080808;
 }
 .info{
     display: flex;
     justify-content: flex-start;
 }
 .titulo{
-    margin-top: 33px;
+    margin-top: 80px;
     padding-left: 200px;
-}
-.principal{
     font-size: 64px;
-    
 }
 .sub{
     font-size: 24px;
+    font-family: "DM Serif Text", serif;
     color: #848281;
 }
 .conf{
@@ -98,8 +116,16 @@ body{
     margin-top: 126px;
     height: 250px;
 }
-.titulo-fed{
-    font-size: 40px;
+.titulo-geral{
+    font-size: 45px;
     text-align: center;
-    padding-top: 56px;
+    padding-top: 50px;
+}
+.texto-feed{
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 5px;
+    font-family: "DM Serif Text", serif;
+    font-size: 20px;
+
 }
