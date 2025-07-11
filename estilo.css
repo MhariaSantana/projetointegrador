@@ -114,7 +114,8 @@ body{
 .fundo{
     background-color: white;
     margin-top: 126px;
-    height: 250px;
+    margin-bottom: 126px;
+    height: 350px;
 }
 .titulo-geral{
     font-size: 45px;
@@ -124,8 +125,10 @@ body{
 .texto-feed{
     text-align: center;
     margin-top: 10px;
-    padding-top: 5px;
+    padding-top: 40px;
     font-family: "DM Serif Text", serif;
     font-size: 20px;
-
+}
+.nome-feed{
+    margin-top: 50px;
 }
