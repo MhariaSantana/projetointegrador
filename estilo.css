@@ -123,6 +123,7 @@ body{
     padding-top: 50px;
 }
 .texto-feed{
+    align-items: center;
     text-align: center;
     margin-top: 10px;
     padding-top: 40px;
@@ -132,3 +133,21 @@ body{
 .nome-feed{
     margin-top: 50px;
 }
+.foto-aspas{
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 40px;
+    font-family: "DM Serif Text", serif;
+    font-size: 20px;
+    justify-items: center;
+    justify-content: center;
+    margin-left: 650px;
+}
+.redes{
+    margin-bottom: 126px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+
