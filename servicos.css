@@ -60,6 +60,7 @@ body{
   transform: translate(-50%, -50%);
   object-fit: cover;
   z-index: 1;
+  
 }
 .overlay {
   position: relative;
@@ -91,11 +92,11 @@ body{
 }
 .formato-card{
     margin-top: 80px;
-    background-color: transparent;
+background-color: #DAD1C8 ;
     text-align: center;
     font-family: "DM Serif Text", serif;
     text-transform: uppercase;
-    margin-inline-start: 150px;
+    margin-inline-start: 100px;
 
 }
 .botao{
