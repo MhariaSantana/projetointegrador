@@ -97,9 +97,18 @@ background-color: #DAD1C8 ;
     font-family: "DM Serif Text", serif;
     text-transform: uppercase;
     margin-inline-start: 100px;
-
 }
 .botao{
     margin-top: 10px;
+}
+.font{
+    font-family: "DM Serif Text", serif;
+}
+.sub-form{
+    font-family: "DM Serif Text", serif;
+    color: #848281;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
 }
 
