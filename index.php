@@ -107,7 +107,7 @@ mysqli_close($conexao);
 <div class="container text-center redes">
     <div class="row align-items-start">
         <div class="col">
-            <a href=""><img src="imagens/zap.png"></a>
+            <a href="https://api.whatsapp.com/send/?phone=19989263487&text&type=phone_number&app_absent=0"><img src="imagens/zap.png"></a>
         </div>
         <div class="col ">
             <a href="https://www.instagram.com/beautyy_nati?igsh=MTJzMHV6aWM3aXR1Mg=="><img src="imagens/insta.png"></a>
