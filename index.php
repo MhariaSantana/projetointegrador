@@ -44,11 +44,11 @@
                 }
                 ?>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <button class="carousel-control-prev " type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <button class="carousel-control-next " type="button" data-bs-target="#carouselExample" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
@@ -90,12 +90,12 @@ mysqli_close($conexao);
             }
             ?>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
+        <button class="carousel-control-prev " type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="carousel-control-next-icon " aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
     </div>
@@ -128,12 +128,7 @@ mysqli_close($conexao);
     crossorigin="anonymous"></script>
 <script src="funcoes.js/app.js"></script>
 
-<footer class="rodape">
-    <div>
-        <p class="texto-rodape"> BIANCA SERAFIM </p>
-        <img src="imagens/icon2.png" class="tm">
-    </div>
-</footer>
+
 </body>
 
 </html>

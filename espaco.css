@@ -41,63 +41,41 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-
-body{
-    background-color: #E7DED5;
-}
-.cabecalho{
-    background-color: #BFB3A5 ;
-    height: 60px;
-}
-.menu{
-    color: black;
-    font-size: 16px;
-    margin-top: 25px;
-    margin-right: 50px;
-}
-.menu-meio{
-    
-    padding-right: 50px;
-    color: black;
-    font-size: 16px;
-    margin-top: 25px;
-}
-.menu-cabecalho{
-    display: flex;
-    text-align: center;
-    justify-content: end;
-}
+body{background-color: #E7DED5;}
 .fotos{
     display: flex;
     text-align: center;
     justify-content: space-around;
     margin-top: 100px;
 }
-.titulo{
-    text-align: center;
-    font-size: 42px;
-    margin-right: 80px;
-    color: #848281;
-    margin-top: 81px;
-    
-}
 .espaco-texto{
     padding-top: 42px;
-}
-.subtitulo{
-    text-align: center;
-    font-size: 42px;
-    margin-right: 80px;
-    color: #848281;
-    margin-top: 81px;
+    margin-bottom: 42px;
+    font-size: 15px;
+    text-align: left;
+    font-family: "DM Serif Text", serif;
 }
 .mapa {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 52px;
+    margin-top: 106px;
     margin-bottom: 52px;
 }
-.loca{
-    margin-top: 150px;
+.agendamento{
+    display: block;
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
+  margin-top: 100px;
 }
+.agendamento-sub{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 23px;
+}
+.foto3{width: 300px;}
+.loc{background-color: #BFB3A5;
+height: 60px;
+text-align: center;
+align-items: center;
+justify-content: center;
+display: flex;
+font-family: "DM Serif Text", serif;}

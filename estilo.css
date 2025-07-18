@@ -72,14 +72,20 @@ body{
     font-size: 10px;
     align-items: center;
     text-align: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
-.texto-rodape{
-    margin-top: 5px;
+.rodape-faixa{
+    background-color: white ;
+    font-size: 15px;
+    align-items: center;
+    text-align: center;
     padding-top: 10px;
-    margin-bottom: 3px;
+    padding-bottom: 10px;
     font-family: "DM Serif Text", serif;
-
+    
 }
+
 .tm{
     width: 40px;
 }
@@ -148,6 +154,19 @@ body{
     margin-bottom: 126px;
     padding-left: 80px;
     padding-right: 80px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color:  #BFB3A5; 
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.btn-color{
+    background-color: #BFB3A5 ;
+    color: #080808;
+    margin-top: 10px;
+    border-radius: 0 !important;
 }
 
 

@@ -2,15 +2,20 @@
 <link rel="stylesheet" href="servicos.css">
 
 <div class="banner">
-  <video class="video-banner" autoplay muted loop>
+  <video class="video-banner camada2" autoplay muted loop>
     <source src="videos/banner.mp4" type="video/mp4">
   </video>
-  <div class="overlay">
-    <h1>SERVIÇOS ESPAÇO BIOSEGURANÇA</h1>
+  <div class="camada2"></div>
+  <div class="titulo-servicos">
+    <h1>SEU OLHAR FALA POR VOCÊ  <br></h1>
+    <p class="sub-serviços">
+      que ele conte a historia de quem acredita em si mesma
+    </p>
+
   </div>
 </div>
 
-<h1 class="sub-geral">SOBRANCELHAS</h1>
+<h1 class="titulo-geral">SOBRANCELHAS</h1>
 <div class="container">
   <div class="row ">
 
@@ -30,9 +35,9 @@
       <div class="card formato-card " style="width: 11rem;">
         <img src="<?= $linha['foto'] ?>" class="card-img-top foto-card" alt="...">
         <div class="card-body ">
-          <h5><?= $linha['modelo']; ?></h5>
+          <h5 class="modelo-al"><?= $linha['modelo']; ?></h5>
           <p> R$ <?= $linha['valor']; ?></p>
-          <a href="#" class="btn btn-dark botao">AGENDAR</a>
+          <a href="#" class="btn btn-color botao btn-sm">AGENDAR</a>
         </div>
       </div>
       <?php
@@ -58,13 +63,13 @@
           <label for="email" class="form-label font">E-mail</label>
           <input type="text" name="email" placeholder="Digite seu email" id="email" required class="form-control">
         </div>
-        <button type="submit" name="cadastrar" id="cadastrar" class="btn btn-dark">CADASTRAR</button>
+        <button type="submit" name="cadastrar" id="cadastrar" class="btn btn-color">CADASTRAR</button>
       </div>
     </form>
   </div>
 </div>
 
-<h1 class="sub-geral">ALONGAMENTOS</h1>
+<h1 class="titulo-geral">ALONGAMENTOS</h1>
 <div class="container">
   <div class="row ">
 
@@ -84,9 +89,9 @@
       <div class="card formato-card " style="width: 11rem;">
         <img src="<?= $linha['foto'] ?>" class="card-img-top foto-card" alt="...">
         <div class="card-body ">
-          <h5><?= $linha['modelo']; ?></h5>
+          <h5 class="modelo-al"><?= $linha['modelo']; ?></h5>
           <p> R$ <?= $linha['valor']; ?></p>
-          <a href="#" class="btn btn-dark botao">AGENDAR</a>
+          <a href="#" class="btn btn-color botao">AGENDAR</a>
         </div>
       </div>
       <?php
