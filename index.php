@@ -104,23 +104,9 @@ mysqli_close($conexao);
 mysqli_close($conexao);
 ?>
 
-<div class="container text-center redes">
-    <div class="row align-items-start">
-        <div class="col">
-            <a href="https://api.whatsapp.com/send/?phone=19989263487&text&type=phone_number&app_absent=0"><img src="imagens/zap.png"></a>
-        </div>
-        <div class="col ">
-            <a href="https://www.instagram.com/beautyy_nati?igsh=MTJzMHV6aWM3aXR1Mg=="><img src="imagens/insta.png"></a>
-
-        </div>
-        <div class="col">
-            <a href=""> <img src="imagens/face.png"></a>
-
-        </div>
-    </div>
-</div>
 
 
+<?php include "includes/rodape.php"?>
 <script src="funcoes.js/jquery.js"></script>
 <script src="lib/slick-1.8.1/slick-1.8.1/slick/slick.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"

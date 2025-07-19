@@ -37,7 +37,6 @@
         <div class="card-body ">
           <h5 class="modelo-al"><?= $linha['modelo']; ?></h5>
           <p> R$ <?= $linha['valor']; ?></p>
-          <a href="#" class="btn btn-color botao btn-sm">AGENDAR</a>
         </div>
       </div>
       <?php
@@ -102,7 +101,7 @@
   </div>
  
 </div>
-
+<?php include "includes/rodape.php"?>
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
