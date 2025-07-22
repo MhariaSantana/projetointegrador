@@ -21,12 +21,12 @@
 
         </div>
     </div>
-
+<!-----
     <div class="rodape-faixa">
         <p>
             <small><?php echo date("Y"); ?></small>
             &copy;
         </p>
     </div> 
-    
+    --->
 </footer>
