@@ -87,14 +87,18 @@
 
     while ($linha = mysqli_fetch_assoc($resultado)) {
       ?>
-      <div class="card formato-card " style="width: 11rem;">
-        <img src="<?= $linha['foto'] ?>" class="card-img-top foto-card" alt="...">
-        <div class="card-body ">
-          <h5 class="modelo-al"><?= $linha['modelo']; ?></h5>
-          <p> R$ <?= $linha['valor']; ?></p>
-        </div>
+    <div class="card formato-card " style="width: 11rem;">
+      <img src="<?= $linha['foto'] ?>" class="card-img-top foto-card" alt="...">
+      <div class="card-body ">
+        <h5 class="modelo-al">
+          <?= $linha['modelo']; ?>
+        </h5>
+        <p> R$
+          <?= $linha['valor']; ?>
+        </p>
       </div>
-      <?php
+    </div>
+    <?php
     }
 
     mysqli_close($conexao);
@@ -159,34 +163,41 @@
 <!-- formulario cm select que só demarca para qual tabela do banco(em conjunto com a página clienteSalvar) de dados as informações serão encaminhadas -->
 
 <div class="fundo">
-  <div class="container">
+  <div class="container feed-agendamento">
+
+
     <div>
-    <h1 class="titulo-geral">DEIXE SEU FEEDBACK</h1>
-    <h2>sua opinião e muito importante <h2>
+      <form name="cadastro" method="post" action="clienteSalvar.php">
+        <div>
+          <h1 class="titulo-geral">DEIXE SEU FEEDBACK</h1>
+          <h2>sua opinião e muito importante <h2>
+        </div>
+
+        Nome : <input type="text" name="nome" required maxlength="200"><br>
+
+        Feedback : <input type="text" name="email" required> <br>
+
+        Procedimento realizado
+        <select name="tipo">
+          <option value="fisica"> Cilios</option>
+          <option value="juridica">Sobrancelha</option>
+        </select><br>
+
+        <button type="submit">cadastrar</button>
+      </form>
+    </div>
+
+
+
+
+    <div>
+      <h1>AGENDAR PELO WHATSAPP</h1>
+      
+
+    </div>
   </div>
 
 
-  <form name="cadastro" method="post" action="clienteSalvar.php">
-
-    Nome : <input type="text" name="nome" required maxlength="200"><br>
-
-    Feedback : <input type="text" name="email" required> <br>
-
-    Procedimento realizado
-    <select name="tipo">
-      <option value="fisica"> Cilios</option>
-      <option value="juridica">Sobrancelha</option>
-    </select><br>
-
-    <button type="submit">cadastrar</button>
-  </form>
-  </div>
-  
-
-  <div>
-    <h1>AGENDAR PELO WHATSAPP</h1>
-    
-  </div>
 
 </div>
 
