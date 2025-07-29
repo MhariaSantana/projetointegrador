@@ -17,9 +17,11 @@ function TrocarFoto(foto){
     TrocarFoto(fotoAtual);
 
  }, 5000);
+//função para troca de ft, video do Guto
 
 
 
+ //função do jquery
 $('.autoplay').slick({
   slidesToShow: 3,
   slidesToScroll: 1,

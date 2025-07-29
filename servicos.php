@@ -48,6 +48,7 @@
 
 </div>
 
+<!---Formulario que só armazena dados para captação de clientes/ uso em api --->
 <div class="fundo">
   <div class="container form-estilo">
     <h1 class="titulo-geral">NEWS</h1>
@@ -145,14 +146,51 @@
     } else {
       echo "Nenhum horário disponível.";
     }
+
+    mysqli_close($conexao);
     ?>
 
   </div>
-  
+
 </div>
 
 
- 
+
+<!-- formulario cm select que só demarca para qual tabela do banco(em conjunto com a página clienteSalvar) de dados as informações serão encaminhadas -->
+
+<div class="fundo">
+  <div class="container">
+    <div>
+    <h1 class="titulo-geral">DEIXE SEU FEEDBACK</h1>
+    <h2>sua opinião e muito importante <h2>
+  </div>
+
+
+  <form name="cadastro" method="post" action="clienteSalvar.php">
+
+    Nome : <input type="text" name="nome" required maxlength="200"><br>
+
+    Feedback : <input type="text" name="email" required> <br>
+
+    Procedimento realizado
+    <select name="tipo">
+      <option value="fisica"> Cilios</option>
+      <option value="juridica">Sobrancelha</option>
+    </select><br>
+
+    <button type="submit">cadastrar</button>
+  </form>
+  </div>
+  
+
+  <div>
+    <h1>AGENDAR PELO WHATSAPP</h1>
+    
+  </div>
+
+</div>
+
+
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
