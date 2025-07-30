@@ -1,6 +1,7 @@
 <?php include "includes/cab.php"; ?>
 <link rel="stylesheet" href="servicos.css">
 
+
 <div class="banner">
   <video class="video-banner camada2" autoplay muted loop>
     <source src="videos/banner.mp4" type="video/mp4">
@@ -131,6 +132,7 @@
       echo "<div>";
       // Campo de seleção de horários disponíveis
       echo "Consulte os horarios disponiveis:<br>";
+
       echo "<select name='horario' required>";
 
       echo "</div>";
@@ -158,52 +160,58 @@
 
 </div>
 
-
+<div class="agendamento">
+  <img src="imagens/Ellipse 3.png" class="foto3">
+  <p class="agendamento-sub">AGENDAR PELO WHATSAPP</p>
+  <a href="https://api.whatsapp.com/send/?phone=19989263487&text&type=phone_number&app_absent=0"
+    class="btn btn-color ">INICIAR CONVERSA</a>
+</div>
 
 <!-- formulario cm select que só demarca para qual tabela do banco(em conjunto com a página clienteSalvar) de dados as informações serão encaminhadas -->
 
 <div class="fundo">
-  <div class="container feed-agendamento">
+  <div class="container ">
 
 
-    <div>
-      <form name="cadastro" method="post" action="clienteSalvar.php">
-        <div>
-          <h1 class="titulo-geral">DEIXE SEU FEEDBACK</h1>
-          <h2>sua opinião e muito importante <h2>
-        </div>
+    <form name="cadastro" method="post" action="clienteSalvar.php" class="form-estilo">
 
-        Nome : <input type="text" name="nome" required maxlength="200"><br>
+      <h1 class="titulo-geral">DEIXE SEU FEEDBACK</h1>
+      <h2 class="sub-form">sua opinião e muito importante <h2>
 
-        Feedback : <input type="text" name="email" required> <br>
+          <div class='row g-3'>
+            <div class="col">
+              Nome <input type="text" name="nome" required maxlength="200" class="form-control"  placeholder='Digite seu nome'><br>
+            </div>
 
-        Procedimento realizado
-        <select name="tipo">
-          <option value="fisica"> Cilios</option>
-          <option value="juridica">Sobrancelha</option>
-        </select><br>
-
-        <button type="submit">cadastrar</button>
-      </form>
-    </div>
+            <div class="col">
+              Feedback <input type="text" name="retorno" required class="form-control"  placeholder='Deixe seu feedback'> <br>
+            </div>
+          </div>
 
 
+         
+          <div>
+             <h1>Procedimento realizado : </h1>
+            <select name="tipo">
+              <option value="feedback"> Cilios</option>
+              <option value="feedback_sobrancelha">Sobrancelha</option>
+            </select>
+          </div>
+
+          <div>
+            <button type="submit" class='btn btn-color'>ENVIAR</button>
+          </div>
+          
+    </form>
 
 
-    <div>
-      <h1>AGENDAR PELO WHATSAPP</h1>
-      
-
-    </div>
   </div>
-
-
 
 </div>
 
 
 
-
+<?php include "includes/rodape.php"?>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>

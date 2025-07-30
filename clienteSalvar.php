@@ -1,8 +1,13 @@
 <?php 
 $nome = $_POST['nome'];
-$email = $_POST['email'];
+$retorno = $_POST['retorno'];
+$tipo = $_POST['tipo'];
 
-$sql = "Insert into teste(nome, email) values('$nome' , '$email') ";
+if($tipo=='cilios'){
+    $sql = "insert into feedback (nome, retorno) values ('$nome', '$retorno')";
+}else{
+    $sql = "insert into feedback_sobrancelha(nome, retorno) values ('$nome', '$retorno')";
+}
 
 include 'includes/conexao.php';
 
@@ -12,7 +17,7 @@ mysqli_close($conexao);
 
 
 
-header('Location:ClienteListar.php')
+header('Location:servicos.php')
 //direcionamento está direcinando para  uma página nova de listagem, tirei foto para criar o alert no java
 
 ?>

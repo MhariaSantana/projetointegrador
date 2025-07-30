@@ -75,7 +75,8 @@ mysqli_close($conexao);
     $sql = "select * from feedback_sobrancelha";
     $resultado = mysqli_query($conexao, $sql);
     ?>
-    <img src="imagens/aspas.png" class="foto-aspas">
+    <h1 class="titulo-geral">FEDBACK'S</h1>
+    
     <div id="carouselExample2" class="carousel slide">
         <div class="carousel-inner ">
             <?php
