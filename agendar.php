@@ -21,12 +21,12 @@ if (
         $conexao->query("INSERT INTO agendamentos (nome, email, data, hora) VALUES ('$nome', '$email', '$data', '$hora')");
         $conexao->query("UPDATE horarios_disponiveis SET disponivel=FALSE WHERE data='$data' AND hora='$hora'");
 
-        echo "✅ Agendamento feito com sucesso para $nome em $data às $hora!";
+        echo "Agendamento feito com sucesso para";
     } else {
-        echo "⛔ Horário já foi escolhido!";
+        echo "Horário já foi escolhido";
     }
 } else {
-    echo "⚠️ Erro: todos os campos do formulário devem ser preenchidos.";
+    echo "Atenção ! Todos os campos do formulário devem ser preenchidos.";
 }
 ?>
 

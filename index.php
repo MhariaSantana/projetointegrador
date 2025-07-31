@@ -1,6 +1,6 @@
 <?php include "includes/cab.php"; ?>
 
-<div class="info">
+<div class="info" id="inicio">
     <div>
         <img src="" alt="foto da profissional" class="foto1">
         <p class="texto-foto1">ESPECIALISTA EM ALONGAMENTO DE <br>CILIOS E DESIGNER SOBRANCELHA</p>
@@ -105,7 +105,7 @@ mysqli_close($conexao);
 mysqli_close($conexao);
 ?>
 
-
+<a href="#inicio" class="seta"><img src="imagens/seta2.png"></a>
 
 <?php include "includes/rodape.php"?>
 <script src="funcoes.js/jquery.js"></script>

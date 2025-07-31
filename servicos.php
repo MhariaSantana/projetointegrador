@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="servicos.css">
 
 
-<div class="banner">
+<div class="banner " id="banner">
   <video class="video-banner camada2" autoplay muted loop>
     <source src="videos/banner.mp4" type="video/mp4">
   </video>
@@ -150,7 +150,7 @@
       echo " <button type='submit' name='agendar' id='agendar' class='btn btn-color'>AGENDAR</button>";
       echo "</form>";
     } else {
-      echo "Nenhum horário disponível.";
+      echo "Agenda encerrada, aguarde";
     }
 
     mysqli_close($conexao);
@@ -167,7 +167,7 @@
     class="btn btn-color ">INICIAR CONVERSA</a>
 </div>
 
-<!-- formulario cm select que só demarca para qual tabela do banco(em conjunto com a página clienteSalvar) de dados as informações serão encaminhadas -->
+<!-- formulario cm select que só demarca para qual tabela do banco(em conjunto com a página clienteSalvar) de dados as informações serão encaminhadas / aula Guto-->
 
 <div class="fundo">
   <div class="container ">
@@ -187,9 +187,6 @@
               Feedback <input type="text" name="retorno" required class="form-control"  placeholder='Deixe seu feedback'> <br>
             </div>
           </div>
-
-
-         
           <div>
              <h1>Procedimento realizado : </h1>
             <select name="tipo">
@@ -209,7 +206,7 @@
 
 </div>
 
-
+<a href="#banner">voltar</a>
 
 <?php include "includes/rodape.php"?>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"

@@ -17,9 +17,12 @@
                      <a href="https://api.whatsapp.com/send/?phone=19989263487&text&type=phone_number&app_absent=0"><img src="imagens/zap.png" class="rodape-icon rodape"></a>
                     <p class="rodape">(19) 98926-3487</p>
                 </div>
-            </div>
 
+
+            </div>
+            
         </div>
+         
     </div>
 <!-----
     <div class="rodape-faixa">
