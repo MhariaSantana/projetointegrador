@@ -17,7 +17,11 @@ mysqli_close($conexao);
 
 
 
-header('Location:servicos.php')
+
 //direcionamento está direcinando para  uma página nova de listagem, tirei foto para criar o alert no java
 
 ?>
+<script>
+    alert("Muito obrigada por dedicar um tempo para compartilhar seu feedback conosco💖Sua opinião é extremamente valiosa e nos ajuda a melhorar.")
+    window.location.href = "servicos.php"
+</script>

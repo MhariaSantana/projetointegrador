@@ -1,6 +1,7 @@
 <?php include "includes/cab.php"; ?>
 <link rel="stylesheet" href="bioseguranca.css">
-<h1 class="titulo-geral">BIOSEGURANÇA</h1>
+<h1 id="titulo"
+class="titulo-geral">BIOSEGURANÇA</h1>
 <h2 class="subtitulo">cuidados com a sua saúde</h2>
 
 
@@ -58,7 +59,8 @@
         </div>
 
     </div>
-
+    
+<a href="#titulo" class="seta"><img src="imagens/seta2.png"></a>
 <?php include "includes/rodape.php" ?>
 
 
@@ -66,22 +68,6 @@
 
 
       
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

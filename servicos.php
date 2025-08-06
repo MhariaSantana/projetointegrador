@@ -173,7 +173,8 @@
   <div class="container ">
 
 
-    <form name="cadastro" method="post" action="clienteSalvar.php" class="form-estilo">
+    <form name="cadastro" method="post" action="salvaFeedback.php"
+     class="form-estilo">
 
       <h1 class="titulo-geral">DEIXE SEU FEEDBACK</h1>
       <h2 class="sub-form">sua opinião e muito importante <h2>
@@ -206,7 +207,7 @@
 
 </div>
 
-<a href="#banner">voltar</a>
+<a href="#banner" class="seta"><img src="imagens/seta2.png"></a>
 
 <?php include "includes/rodape.php"?>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"

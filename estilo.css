@@ -174,9 +174,10 @@ width: 70px;
     border-radius: 0 !important;
 }
 .seta{
-   
   align-items: center;
-  text-align: center;
+  display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center;  
  
 }
 
