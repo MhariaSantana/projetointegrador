@@ -122,18 +122,22 @@
 
       echo "<div class='col'> ";
       // Campos que o cliente deve preencher
-      echo "Nome<br> <input type='text' name='nome' placeholder='Digite seu nome' id='nome' required class=' form-control'>";
+      echo " <label for='nome' class='form-label font'>Nome</label>";
+      echo "
+
+      <input type='text' name='nome' placeholder='Digite seu nome' id='nome' required class=' form-control'>";
       echo "</div>";
 
       echo "<div class='col'>";
-      echo "E-mail <input type='text' name='email' placeholder='Digite seu email' id='email' required class='form-control'>";
+      echo " <label for='email' class='form-label font'>E-mail</label>";
+      echo " <input type='text' name='email' placeholder='Digite seu email' id='email' required class='form-control'>";
       echo "</div>";
 
       echo "<div>";
       // Campo de seleção de horários disponíveis
-      echo "Consulte os horarios disponiveis:<br>";
+      echo "Consulte os horarios disponiveis<br>";
 
-      echo "<select name='horario' required>";
+      echo "<select name='horario' required class='select'>";
 
       echo "</div>";
 
@@ -181,15 +185,17 @@
 
           <div class='row g-3'>
             <div class="col">
-              Nome <input type="text" name="nome" required maxlength="200" class="form-control"  placeholder='Digite seu nome'><br>
+              <label for='nome' class='form-label font'>Nome</label>
+              <input type="text" name="nome" required maxlength="200" class="form-control"  placeholder='Digite seu nome'><br>
             </div>
 
             <div class="col">
-              Feedback <input type="text" name="retorno" required class="form-control"  placeholder='Deixe seu feedback'> <br>
+              <label  class='form-label font'>Feedback</label>
+               <input type="text" name="retorno" required class="form-control"  placeholder='Deixe seu feedback'> <br>
             </div>
           </div>
           <div>
-             <h1>Procedimento realizado : </h1>
+             <h1>Procedimento realizado </h1>
             <select name="tipo">
               <option value="feedback"> Cilios</option>
               <option value="feedback_sobrancelha">Sobrancelha</option>
