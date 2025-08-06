@@ -1,7 +1,7 @@
 <?php include "includes/cab.php"?>
 <link rel="stylesheet" href="promocao.css">
 
-<?php  
+<?php  //se existe 
 if (isset($_POST["cadastrar"])) {
     $nome = $_POST["nome"];
     $email = $_POST["email"];}

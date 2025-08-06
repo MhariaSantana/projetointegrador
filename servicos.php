@@ -115,8 +115,8 @@
     include "includes/conexao.php";
     $sql = "SELECT * FROM horarios_disponiveis WHERE disponivel = TRUE";
     $resultado = mysqli_query($conexao, $sql);
-
-    if ($resultado && mysqli_num_rows($resultado) > 0) {
+    //verifica se tem pelo o menos um horario disponivel 
+    if ($resultado && mysqli_num_rows($resultado) > 0) {// combinar as condições e retornar se as duas forem verdadeiras
       echo "<form method='POST' action='includes/agendar.php'>";
       echo "<div class='row g-3'>";
 
@@ -142,7 +142,7 @@
       echo "</div>";
 
       while ($row = mysqli_fetch_assoc($resultado)) {
-        $data = date("d/m/Y", strtotime($row['data']));
+        $data = date("d/m/Y", strtotime($row['data']));// para formatar a data/hr 
         $hora = date("H:i", strtotime($row['hora']));
         $value = "{$row['data']}|{$row['hora']}";
         echo "<option value='$value'>$data às $hora</option>";
