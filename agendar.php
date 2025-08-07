@@ -22,7 +22,9 @@ if (
         //  atualização na tabela de horarios disponiveis, o set altera só o valor da coluna para que esse horario não apareça mais no site após ser escolhido,
         $conexao->query("UPDATE horarios_disponiveis SET disponivel=FALSE WHERE data='$data' AND hora='$hora'");
 
-        echo "Agendamento feito com sucesso para";
+        echo "Agendamento feito com sucesso ";
+
+        
     } else {
         echo "Horário já foi escolhido";
     }
