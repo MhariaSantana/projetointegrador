@@ -1,6 +1,6 @@
 <?php include "includes/cab.php"; ?>
 
-<div class="info" id="inicio">
+<div class="info">
     <div>
         <img src="" alt="foto da profissional" class="foto1">
         <p class="texto-foto1">ESPECIALISTA EM ALONGAMENTO DE <br>CILIOS E DESIGNER SOBRANCELHA</p>

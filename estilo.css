@@ -176,8 +176,13 @@ width: 70px;
 .seta{
   align-items: center;
   display: flex;
-  justify-content: center; /* horizontal */
+  justify-content: center; 
   align-items: center;  
+  animation: pular 0.99s infinite;
  
 }
-
+@keyframes pular {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-20px); }
+  100% { transform: translateY(0); }
+}

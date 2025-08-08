@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="servicos.css">
 
 
-<div class="banner " id="banner">
+<div class="banner ">
   <video class="video-banner camada2" autoplay muted loop>
     <source src="videos/banner.mp4" type="video/mp4">
   </video>
@@ -213,7 +213,7 @@
 
 </div>
 
-<a href="#banner" class="seta"><img src="imagens/seta2.png"></a>
+<a href="#inicio" class="seta"><img src="imagens/seta2.png"></a>
 
 <?php include "includes/rodape.php"?>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"

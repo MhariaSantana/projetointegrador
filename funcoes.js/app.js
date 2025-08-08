@@ -16,7 +16,7 @@ function TrocarFoto(foto){
 
     TrocarFoto(fotoAtual);
 
- }, 5000);
+ }, 2000);
 //função para troca de ft, video do Guto
 
 
@@ -26,7 +26,7 @@ $('.autoplay').slick({
   slidesToShow: 3,
   slidesToScroll: 1,
   autoplay: true,
-  autoplaySpeed: 500,
+  autoplaySpeed: 1000, //velocidade do carrossel 
   arrows:false
 });
 
