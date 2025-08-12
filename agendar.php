@@ -36,7 +36,7 @@ if ($resultado && mysqli_num_rows($resultado) > 0) {
 }
 
 ?>
-<?php include "includes/rodape.php";  ?>
+
 
 
 
