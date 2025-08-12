@@ -117,7 +117,7 @@
     $resultado = mysqli_query($conexao, $sql);
     //verifica se tem pelo o menos um horario disponivel 
     if ($resultado && mysqli_num_rows($resultado) > 0) {// combinar as condições e retornar se as duas forem verdadeiras
-      echo "<form method='POST' action='includes/agendar.php'>";
+      echo "<form method='POST' action='agendar.php'>";
       echo "<div class='row g-3'>";
 
       echo "<div class='col'> ";
